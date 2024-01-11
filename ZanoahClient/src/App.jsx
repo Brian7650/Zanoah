@@ -16,10 +16,12 @@ function App() {
   return (
     <div className="App">
      <Router>
+      <Navbar />
       <Logo>
         <Navigation/>
       </Logo>
-    <Navbar />
+    
+
  
         <Routes>
           <Route path='/' element={<Home />} />
