@@ -1,11 +1,11 @@
-import React from 'react';
+// import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 
 export const SidebarData = [
   {
-    title: 'Home',
+    title: 'News',
     path: '/',
     icon: <AiIcons.AiTwotoneHome />,
     cName: 'nav-text'

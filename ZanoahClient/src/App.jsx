@@ -1,7 +1,7 @@
 // import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Nav/Navbar/Navbar';
-import Navigation  from './components/Nav/Navigation/Navigation';
+// import Navigation  from './components/Nav/Navigation/Navigation';
 import Logo from './components/Nav/Logo/Logo';
 import './App.css';
 import  Home from './components/Pages/Home/Home';
@@ -17,10 +17,8 @@ function App() {
     <div className="App">
      <Router>
       <Navbar />
-      <Logo>
-        <Navigation/>
-      </Logo>
-    
+      <Logo />
+
 
  
         <Routes>
